@@ -13,20 +13,66 @@ const CONFIG = {
       search: '/search?q={}'
     },
     {
-      category: 'General',
-      name: 'Mail',
-      key: 'm',
-      url: 'https://gmail.com',
-      search: '/#search/text={}',
+      category: 'Homelab',
+      name: 'Bookstack',
+      key: 'b',
+      url: 'https://www.levine.xyz',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
-      icon: 'mail',
-      quickLaunch: true,
+      icon: 'book',
+      quickLaunch: false,
+    },
+    {
+      category: 'Homelab',
+      name: 'Code Server',
+      key: 'c',
+      url: 'https://wired.io',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'code',
+      quickLaunch: false,
+    },
+    {
+      category: 'Homelab',
+      name: 'MkDocs',
+      key: 'mk',
+      url: 'https://docs.levine.org',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'mkdocs',
+      quickLaunch: false,
+    },
+    {
+      category: 'Homelab',
+      name: 'SearX',
+      key: 's',
+      url: 'https://search.cc',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'devdocs',
+      quickLaunch: false,
+    },
+    {
+      category: 'Homelab',
+      name: 'Unifi',
+      key: 'u',
+      url: 'https://unifi.encoded.net',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'devdocs',
+      quickLaunch: false,
+    },
+
+
+    {
+      category: 'General',
+      name: 'Cloudflare',
+      key: 'cf',
+      url: 'https://dash.cloudflare.com',
+      color: '#5682a3',
+      icon: 'telegram',
+      quickLaunch: false,
     },
     {
       category: 'General',
-      name: 'Drive',
-      key: 'd',
-      url: 'https://drive.google.com',
+      name: 'DigitalOcean',
+      key: 'do',
+      url: 'https://cloud.digitalocean.com',
       search: '/drive/search?q={}',
       color: 'linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)',
       icon: 'drive',
@@ -34,48 +80,39 @@ const CONFIG = {
     },
     {
       category: 'General',
-      name: 'Telegram',
-      key: 'tg',
-      url: 'https://web.telegram.org',
-      color: '#5682a3',
-      icon: 'telegram',
-      quickLaunch: false,
-    },
-    {
-      category: 'General',
-      name: 'WhatsApp',
-      key: 'w',
-      url: 'https://web.whatsapp.com',
+      name: 'Google Photos',
+      key: 'g',
+      url: 'https://photos.google.com',
       color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
-      icon: 'whatsapp',
+      icon: 'devdocs',
       quickLaunch: false,
     },
     {
       category: 'General',
-      name: 'Discord',
-      key: 'dc',
-      url: 'https://discord.com/app',
+      name: 'pfSense',
+      key: 'pf',
+      url: 'https://pfsense.davelevine.io',
       color: '#7289da',
       icon: 'discord',
       quickLaunch: false,
     },
-
-
     {
-      category: 'Programming',
-      name: 'GitHub',
-      key: 'g',
-      url: 'https://github.com',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
-      icon: 'github',
+      category: 'General',
+      name: 'ProtonMail',
+      key: 'pm',
+      url: 'https://protonmail.com',
+      search: '/#search/text={}',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'mail',
       quickLaunch: true,
     },
+
+
     {
       category: 'Programming',
-      name: 'StackOverflow',
-      key: 'st',
-      url: 'https://stackoverflow.com',
+      name: 'Atomic URL',
+      key: 'a',
+      url: 'https://dl.is',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #53341C, #F48024)',
       icon: 'stackoverflow',
@@ -83,19 +120,9 @@ const CONFIG = {
     },
     {
       category: 'Programming',
-      name: 'HackerNews',
-      key: 'h',
-      url: 'https://news.ycombinator.com/',
-      search: '/search?stories[query]={}',
-      color: 'linear-gradient(135deg, #FF6600, #DC5901)',
-      icon: 'hackernews',
-      quickLaunch: true,
-    },
-    {
-      category: 'Programming',
-      name: 'MDN',
-      key: 'md',
-      url: 'https://developer.mozilla.org/en-US',
+      name: 'Dev.to',
+      key: 'dt',
+      url: 'https://dev.to',
       search: '/search?q={}',
       color: '#212121',
       icon: 'mdn',
@@ -110,12 +137,32 @@ const CONFIG = {
       icon: 'devdocs',
       quickLaunch: false,
     },
+    {
+      category: 'Programming',
+      name: 'FreeCodeCamp',
+      key: 'fc',
+      url: 'https://freecodecamp.org/',
+      search: '/search?stories[query]={}',
+      color: 'linear-gradient(135deg, #FF6600, #DC5901)',
+      icon: 'hackernews',
+      quickLaunch: true,
+    },
+    {
+      category: 'Programming',
+      name: 'GitHub',
+      key: 'gh',
+      url: 'https://github.com/davelevine',
+      search: '/search?q={}',
+      color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
+      icon: 'github',
+      quickLaunch: true,
+    },
 
 
     {
       category: 'Fun',
       name: 'YouTube',
-      key: 'y',
+      key: 'yt',
       url: 'https://youtube.com',
       search: '/results?search_query={}',
       color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
@@ -143,6 +190,16 @@ const CONFIG = {
     },
     {
       category: 'Fun',
+      name: 'Plausible',
+      key: 'p',
+      url: 'https://plausible.io',
+      search: '/directory/game/{}',
+      color: 'linear-gradient(135deg, #6441a5, #4b367c)',
+      icon: 'twitch',
+      quickLaunch: false,
+    },
+    {
+      category: 'Fun',
       name: 'Spotify',
       key: 's',
       url: 'https://open.spotify.com/',
@@ -151,23 +208,13 @@ const CONFIG = {
       icon: 'spotify',
       quickLaunch: false,
     },
-    {
-      category: 'Fun',
-      name: 'Twitch',
-      key: 'tw',
-      url: 'https://www.twitch.tv',
-      search: '/directory/game/{}',
-      color: 'linear-gradient(135deg, #6441a5, #4b367c)',
-      icon: 'twitch',
-      quickLaunch: false,
-    },
 
 
     {
       category: 'Other',
-      name: 'Twitter',
-      key: 't',
-      url: 'https://www.twitter.com',
+      name: 'Blog',
+      key: 'b',
+      url: 'https://www.daveindigital.com',
       search: '/search?q={}&src=typed_query',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
       icon: 'twitter',
@@ -175,18 +222,9 @@ const CONFIG = {
     },
     {
       category: 'Other',
-      name: 'Instagram',
-      key: 'i',
-      url: 'https://www.instagram.com',
-      color: 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
-      icon: 'instagram',
-      quickLaunch: true,
-    },
-    {
-      category: 'Other',
       name: 'LinkedIn',
       key: 'l',
-      url: 'https://linkedin.com',
+      url: 'https://linkedin.com/in/iamdavelevine',
       search: '/search/results/all/?keywords={}',
       color: 'linear-gradient(135deg, #006CA4, #0077B5)',
       icon: 'linkedin',
@@ -195,7 +233,7 @@ const CONFIG = {
     {
       category: 'Other',
       name: 'Notion',
-      key: 'ns',
+      key: 'n',
       url: 'https://www.notion.so',
       color: 'linear-gradient(135deg, #FFF, #3F3F3F)',
       icon: 'notion',
@@ -203,9 +241,18 @@ const CONFIG = {
     },
     {
       category: 'Other',
-      name: 'Translate',
-      key: 'tr',
-      url: 'https://translate.google.com/',
+      name: 'Resume',
+      key: 'r',
+      url: 'https://dave.levine.org',
+      color: 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
+      icon: 'instagram',
+      quickLaunch: true,
+    },
+    {
+      category: 'Other',
+      name: 'SimpleLogin',
+      key: 'sl',
+      url: 'https://app.simplelogin.io/dashboard/',
       search: '/#view=home&op=translate&sl=auto&tl=en&text={}',
       color: '#1a73e8',
       icon: 'translate',
@@ -263,7 +310,7 @@ const CONFIG = {
   /**
    * Open triggered queries in a new tab.
    */
-  newTab: false,
+  newTab: true,
 
   /**
    * Dynamic overlay background colors when command domains are matched.
@@ -278,7 +325,7 @@ const CONFIG = {
   /**
    * Show keys instead of icons
    */
-  showKeys: false,
+  showKeys: true,
 
   /**
    * The delimiter between a command key and your search query. For example,
@@ -295,7 +342,7 @@ const CONFIG = {
   /**
    * The delimiter between the hours and minutes on the clock.
    */
-  clockDelimiter: ' ',
+  clockDelimiter: '',
 
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
