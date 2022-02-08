@@ -164,14 +164,14 @@ template {
 
 @font-face {
   font-family: 'Domaine Text';
-  src: local('domaine-text-medium'), url('../assets/fonts/Domaine Text/domaine-text-medium.woff2');
+  src: local('domaine-text-medium'), url('../assets/fonts/DomaineText/domaine-text-medium.woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Domaine Text';
-  src: local('domaine-text-bold'), url('../assets/fonts/Domaine Text/domaine-text-bold.woff2');
+  src: local('domaine-text-bold'), url('../assets/fonts/DomaineText/domaine-text-bold.woff2');
   font-weight: 900;
   font-style: normal;
 }
