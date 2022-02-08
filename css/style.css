@@ -19,7 +19,7 @@ hr {
   overflow: visible; /* 2 */
 }
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: serif, serif; /* 1 */
   font-size: 1em; /* 2 */
 }
 a {
@@ -37,7 +37,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: serif, serif; /* 1 */
   font-size: 1em; /* 2 */
 }
 small {
@@ -163,15 +163,15 @@ template {
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis-Medium'), url('../assets/fonts/Metropolis-Medium.woff2');
+  font-family: 'Domaine Text';
+  src: local('domaine-text-medium'), url('../assets/fonts/Domaine Text/domaine-text-medium.woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis-Bold'), url('../assets/fonts/Metropolis-Black.woff2');
+  font-family: 'Domaine Text';
+  src: local('domaine-text-bold'), url('../assets/fonts/Domaine Text/domaine-text-bold.woff2');
   font-weight: 900;
   font-style: normal;
 }
@@ -181,7 +181,7 @@ template {
 }
 
 html {
-  font-family: "Metropolis", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Domaine Text';
   font-size: var(--base-font-size);
   font-weight: var(--font-weight-normal);
 }
