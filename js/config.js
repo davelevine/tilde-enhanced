@@ -213,7 +213,7 @@ const CONFIG = {
     {
       category: 'Other',
       name: 'Blog',
-      key: 'b',
+      key: 'bl',
       url: 'https://www.daveindigital.com',
       search: '/search?q={}&src=typed_query',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
