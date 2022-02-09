@@ -80,20 +80,20 @@ const CONFIG = {
     },
     {
       category: 'General',
-      name: 'Google Photos',
-      key: 'g',
-      url: 'https://photos.google.com',
-      color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
-      icon: 'devdocs',
-      quickLaunch: false,
-    },
-    {
-      category: 'General',
       name: 'pfSense',
       key: 'pf',
       url: 'https://pfsense.davelevine.io',
       color: '#7289da',
       icon: 'discord',
+      quickLaunch: false,
+    },
+    {
+      category: 'General',
+      name: 'Plausible',
+      key: 'p',
+      url: 'https://plausible.io',
+      color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
+      icon: 'devdocs',
       quickLaunch: false,
     },
     {
@@ -160,7 +160,17 @@ const CONFIG = {
 
 
     {
-      category: 'Fun',
+      category: 'Entertainment',
+      name: 'Google Photos',
+      key: 'g',
+      url: 'https://photos.google.com',
+      search: '/directory/game/{}',
+      color: 'linear-gradient(135deg, #6441a5, #4b367c)',
+      icon: 'twitch',
+      quickLaunch: false,
+    },
+    {
+      category: 'Entertainment',
       name: 'Netflix',
       key: 'n',
       url: 'https://www.netflix.com',
@@ -169,17 +179,7 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
-      name: 'Plausible',
-      key: 'p',
-      url: 'https://plausible.io',
-      search: '/directory/game/{}',
-      color: 'linear-gradient(135deg, #6441a5, #4b367c)',
-      icon: 'twitch',
-      quickLaunch: false,
-    },
-    {
-      category: 'Fun',
+      category: 'Entertainment',
       name: 'Reddit',
       key: 'r',
       url: 'https://reddit.com',
@@ -189,9 +189,9 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Entertainment',
       name: 'Spotify',
-      key: 's',
+      key: 'sp',
       url: 'https://open.spotify.com/',
       search: '/search/{}',
       color: '#1dd35e',
@@ -199,7 +199,7 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Entertainment',
       name: 'YouTube',
       key: 'yt',
       url: 'https://youtube.com',
@@ -242,7 +242,7 @@ const CONFIG = {
     {
       category: 'Other',
       name: 'Resume',
-      key: 'r',
+      key: 're',
       url: 'https://dave.levine.org',
       color: 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
       icon: 'instagram',
@@ -345,7 +345,7 @@ const CONFIG = {
   clockDelimiter: ' ',
 
    // Show seconds on the clock. A monospaced font is recommended for this.
-   clockShowSeconds: true,
+  clockShowSeconds: true,
 
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
