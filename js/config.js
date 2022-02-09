@@ -23,7 +23,7 @@ const CONFIG = {
     },
     {
       category: 'Homelab',
-      name: 'Code Server',
+      name: 'Code',
       key: 'c',
       url: 'https://wired.io',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
