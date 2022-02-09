@@ -60,5 +60,6 @@ const form = new Form({
 new Clock({
   delimiter: CONFIG.clockDelimiter,
   toggleHelp: help.toggle,
+  showSeconds: CONFIG.clockShowSeconds,
   twentyFourHourClock: CONFIG.twentyFourHourClock,
 });

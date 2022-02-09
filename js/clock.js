@@ -2,6 +2,7 @@ class Clock {
     constructor(options) {
       this._el = $.el('#clock');
       this._delimiter = options.delimiter;
+      this._showSeconds = options.showSeconds;
       this._twentyFourHourClock = options.twentyFourHourClock;
       this._setTime = this._setTime.bind(this);
       this._el.addEventListener('click', options.toggleHelp);
@@ -23,8 +24,12 @@ class Clock {
           `${date.getHours() >= 12 ? 'PM' : 'AM'}</span>`;
       }
   
-      const minutes = $.pad(date.getMinutes());
-      this._el.innerHTML = `${hours}${this._delimiter}${minutes}${amPm}`;
+      const minutes = this._delimiter + $.pad(date.getMinutes());
+      const seconds = this._showSeconds
+        ? this._delimiter + $.pad(date.getSeconds())
+        : '';
+
+      this._el.innerHTML = hours + minutes + seconds + amPm;
       this._el.setAttribute('datetime', date.toTimeString());
     }
   
