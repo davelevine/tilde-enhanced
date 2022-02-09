@@ -342,7 +342,7 @@ const CONFIG = {
   /**
    * The delimiter between the hours and minutes on the clock.
    */
-  clockDelimiter: ' ',
+  clockDelimiter: ':',
 
    // Show seconds on the clock. A monospaced font is recommended for this.
   clockShowSeconds: true,
