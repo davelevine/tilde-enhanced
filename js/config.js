@@ -310,7 +310,7 @@ const CONFIG = {
   /**
    * Open triggered queries in a new tab.
    */
-  newTab: true,
+  newTab: false,
 
   /**
    * Dynamic overlay background colors when command domains are matched.
