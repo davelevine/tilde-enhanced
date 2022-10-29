@@ -14,20 +14,20 @@ const CONFIG = {
     },
     {
       category: 'Homelab',
-      name: 'Bookstack',
-      key: 'b',
-      url: 'https://www.levine.xyz',
-      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
-      icon: 'book',
-      quickLaunch: false,
-    },
-    {
-      category: 'Homelab',
       name: 'Code',
       key: 'c',
       url: 'https://wired.io',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
       icon: 'code',
+      quickLaunch: false,
+    },
+    {
+      category: 'Homelab',
+      name: 'Gitea',
+      key: 'g',
+      url: 'https://code.wired.io',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'git',
       quickLaunch: false,
     },
     {
@@ -212,16 +212,6 @@ const CONFIG = {
 
     {
       category: 'Other',
-      name: 'Blog',
-      key: 'bl',
-      url: 'https://www.daveindigital.com',
-      search: '/search?q={}&src=typed_query',
-      color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
-      icon: 'twitter',
-      quickLaunch: true,
-    },
-    {
-      category: 'Other',
       name: 'LinkedIn',
       key: 'l',
       url: 'https://linkedin.com/in/iamdavelevine',
@@ -257,6 +247,16 @@ const CONFIG = {
       color: '#1a73e8',
       icon: 'translate',
       quickLaunch: false,
+    },
+    {
+      category: 'Other',
+      name: 'Wikiless',
+      key: 'wl',
+      url: 'https://wiki.ttx.org',
+      search: '/search?q={}&src=typed_query',
+      color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
+      icon: 'wiki',
+      quickLaunch: true,
     },
   ],
 
