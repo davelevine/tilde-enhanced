@@ -52,7 +52,7 @@ const CONFIG = {
       category: 'Homelab',
       name: 'Unifi',
       key: 'u',
-      url: 'https://unifi.ttx.org',
+      url: 'https://digital.cc',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
       icon: 'devdocs',
       quickLaunch: false,
