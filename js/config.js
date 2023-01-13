@@ -171,11 +171,11 @@ const CONFIG = {
     },
     {
       category: 'Entertainment',
-      name: 'Netflix',
+      name: 'Plex',
       key: 'n',
-      url: 'https://www.netflix.com',
+      url: 'https://app.plex.tv',
       color: 'linear-gradient(135deg, #E50914, #CB020C)',
-      icon: 'netflix',
+      icon: 'plex',
       quickLaunch: false,
     },
     {
