@@ -182,7 +182,7 @@ const CONFIG = {
       category: 'Entertainment',
       name: 'Reddit',
       key: 'r',
-      url: 'https://reddit.com',
+      url: 'https://thoughtcrime.xyz',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #FF8456, #FF4500)',
       icon: 'reddit',
