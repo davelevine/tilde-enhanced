@@ -252,7 +252,7 @@ const CONFIG = {
       category: 'Other',
       name: 'Wikiless',
       key: 'wl',
-      url: 'https://wiki.ttx.org',
+      url: 'https://wiki.xdv.com',
       search: '/search?q={}&src=typed_query',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
       icon: 'wiki',
