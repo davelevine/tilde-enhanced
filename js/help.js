@@ -98,7 +98,7 @@ class Help {
                 }   
               </style>
               <li class="command">
-                <a href="${url}" target="${this._newTab ? '_blank' : '_self'}">
+                <a href="${url}" target="${this._newTab ? '_blank' : '_blank'}">
                   <span class="command-key command-key-${i}">${iconEl}</span>
                   <span class="command-name">${name}</span>
                 </a>
@@ -113,7 +113,7 @@ class Help {
           if (category === currentCategory) {
             return `
               <li class="command">
-                <a href="${url}" target="${this._newTab ? '_blank' : '_self'}">
+                <a href="${url}" target="${this._newTab ? '_blank' : '_blank'}">
                       <style>
                         .command-key-${i} {
                           color: ${fgcolor}; 
